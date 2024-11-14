@@ -118,8 +118,8 @@ nav ul li a:hover::after{
 
 .tablinks{
     margin-right: 50px;
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 50px;
+    /* font-weight: 500; */
     color: #FF6F61;
     cursor: pointer;
     position: relative;
@@ -176,7 +176,7 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .container{
-    height: 75vh;
+    height: 500px;
 }
 #contactright{
     flex-basis: 35%;
@@ -249,8 +249,54 @@ button{
 
 /* ------------css media for small screen---------- */
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:480px  ){
+    
+    .headertext{
+        flex-wrap: wrap;
+    }
     #header{
-        background-image: url(); /* You can add a mobile-friendly background image */
+        height: 650px;
+    }
+    .c2{
+        width: 500px;
+        height: 300px;
+        font-size: 25px;
+    }
+    .tabcontents.activetab{
+        display: inline-flex;
+    }
+    
+    .sticker{
+        margin:100px 0px 0px 0px ;
+    }
+    .container{
+        width: 45vb;
+       
+    }
+    .row{
+        margin-top: 100px;
+    }
+    .contactleft{
+        margin-left: 50px;
+        font-size: 30px;
+        width: 45vb;
+      
+    }
+    .socialicons{
+        margin-left:100px ;
+    }
+    .socialicons a:hover{
+        color: #FF6F61;
+        transform: translateY(-5px);
+    }
+    
+    .container{
+        height: 100%;
+    }
+    .contactright{
+        margin-left: 40px;
+    }
+    .footer{
+        width: 140%;
     }
 }
